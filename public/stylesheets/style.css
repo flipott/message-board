@@ -11,8 +11,10 @@ p {
 
 .cards {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap:wrap;
   gap: 15px;
+  margin-bottom: 15px;
 }
 
 form {
@@ -28,7 +30,7 @@ form > input, form > textarea {
   resize: none;
 }
 
-form > button {
+button {
   width: fit-content;
   border: none;
   padding: 8px 12px;
@@ -39,15 +41,27 @@ form > button {
   background: rgb(91, 91, 91);
   padding: 15px;
   width: 400px;
-  min-height: 100px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text {
   font-size: 1.3rem;
+  word-wrap: break-word;
+}
+
+.user {
+  color:rgb(185, 224, 244)
+}
+
+.bottom {
+  margin-top: auto;
 }
 
 .added {
   font-size: 0.7rem;
+  font-style:italic;
 }
 
 a {
