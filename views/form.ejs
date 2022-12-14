@@ -8,9 +8,9 @@
     <h1>New Message</h1>
     <form method="POST" action="/new">
         <label for="user">User</label>
-        <input type="text" name="user" />
+        <input type="text" name="user" maxLength="50" minLength="1" />
         <label for="message">Message</label>
-        <textarea name="message"></textarea>
+        <textarea name="message" maxLength="120" minLength="1"></textarea>
         <button type="submit">Submit</button>
     </form>
   </body>
