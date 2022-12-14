@@ -6,12 +6,12 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <div className="cards">
+    <div class="cards">
       <% for (let i = 0; i < messages.length; i++) { %>
-        <div className="card">
-          <p className="text"><%= messages[i].text %></p>
-          <p className="user"><%= messages[i].user %></p>
-          <p className="added"><%= messages[i].added %></p>
+        <div class="card">
+          <p class="text"><%= messages[i].text %></p>
+          <p class="user"><%= messages[i].user %></p>
+          <p class="added"><%= messages[i].added %></p>
         </div>
       <% } %>
     </div>
