@@ -1,6 +1,33 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #333;
+  color: #fff;  
+}
+
+p {
+  margin: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: rgb(91, 91, 91);
+  padding: 15px;
+  width: 400px;
+  min-height: 100px;
+}
+
+.text {
+  font-size: 1.3rem;
+}
+
+.added {
+  font-size: 0.7rem;
 }
 
 a {
