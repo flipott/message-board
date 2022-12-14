@@ -15,6 +15,26 @@ p {
   gap: 15px;
 }
 
+form {
+  background: rgb(91, 91, 91);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+form > input, form > textarea {
+  margin-bottom: 12px;
+  resize: none;
+}
+
+form > button {
+  width: fit-content;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
 .card {
   background: rgb(91, 91, 91);
   padding: 15px;
